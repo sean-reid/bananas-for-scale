@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/*  Theme                                                              */
+/* ------------------------------------------------------------------ */
+
+@theme {
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-banana-50: #fffbeb;
+  --color-banana-100: #fef3c7;
+  --color-banana-200: #fde68a;
+  --color-banana-300: #fcd34d;
+  --color-banana-400: #fbbf24;
+  --color-banana-500: #f59e0b;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Base                                                               */
+/* ------------------------------------------------------------------ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-white);
+    color: var(--color-neutral-900);
+    transition-property: color, background-color, border-color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--color-neutral-950);
+      color: var(--color-neutral-100);
+    }
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  ::selection {
+    background-color: var(--color-banana-200);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Components — measurement display                                   */
+/* ------------------------------------------------------------------ */
+
+@layer components {
+  .measurement-value {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .measurement-unit {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .measurement-label {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-neutral-500);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .measurement-label {
+      color: var(--color-neutral-400);
+    }
+  }
+
+  .si-value {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-neutral-500);
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .si-value {
+      color: var(--color-neutral-400);
+    }
+  }
+}

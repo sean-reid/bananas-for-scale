@@ -1,0 +1,44 @@
+{
+  "name": "bananas-for-scale",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prebuild": "npm run seed && npm run build:search",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "seed": "npx tsx db/seed.ts",
+    "build:search": "npx tsx scripts/build-search-index.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-visually-hidden": "^1.1.1",
+    "@tailwindcss/postcss": "^4.0.0",
+    "better-sqlite3": "^11.7.0",
+    "drizzle-orm": "^0.38.0",
+    "minisearch": "^7.1.1",
+    "motion": "^12.0.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "drizzle-kit": "^0.30.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.0.0",
+    "postcss": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
