@@ -61,7 +61,7 @@ export const sillyUnitsData: {
   { name: "Feet in a mile", name_singular: "Foot in a mile", dimension: "count", si_value: 5280 },
 
   // ~40320
-  { name: "Rubik's cube scrambles (minimum)", name_singular: "Rubik's cube scramble (minimum)", dimension: "count", si_value: 40320 },
+  { name: "Rubik's cube permutations", name_singular: "Rubik's cube permutation", dimension: "count", si_value: 40320 },
 
   // ~100000
   { name: "Hairs on a head", name_singular: "Hair on a head", dimension: "count", si_value: 100000 },

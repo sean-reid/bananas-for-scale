@@ -32,13 +32,13 @@ export const sillyUnitsData: {
   // Proton mass ~1.67e-27kg
   { name: "Protons", name_singular: "Proton", dimension: "mass", si_value: 1.67e-27 },
   // Water molecule mass ~3e-26kg
-  { name: "Water molecules (mass)", name_singular: "Water molecule (mass)", dimension: "mass", si_value: 3e-26 },
+  { name: "Water molecule weights", name_singular: "Water molecule weight", dimension: "mass", si_value: 3e-26 },
   // Bacterium mass ~1e-15kg
   { name: "Bacteria", name_singular: "Bacterium", dimension: "mass", si_value: 1e-15 },
   // Grain of pollen ~1e-8kg
   { name: "Pollen grains", name_singular: "Pollen grain", dimension: "mass", si_value: 1e-8 },
   // Mosquito ~2.5e-6kg
-  { name: "Mosquitoes (mass)", name_singular: "Mosquito (mass)", dimension: "mass", si_value: 2.5e-6 },
+  { name: "Mosquito weights", name_singular: "Mosquito weight", dimension: "mass", si_value: 2.5e-6 },
 
   // ── Energy: fill sub-eV gap ───────────────────────────────────────────
   // Thermal energy at room temp kT ~4.1e-21J
@@ -52,11 +52,11 @@ export const sillyUnitsData: {
 
   // ── Volume: fill sub-microliter gap ───────────────────────────────────
   // Red blood cell volume ~9e-17m³
-  { name: "Red blood cells (volume)", name_singular: "Red blood cell (volume)", dimension: "volume", si_value: 9e-17 },
+  { name: "Red blood cell volumes", name_singular: "Red blood cell volume", dimension: "volume", si_value: 9e-17 },
   // Human cell volume ~4e-15m³
-  { name: "Human cells (volume)", name_singular: "Human cell (volume)", dimension: "volume", si_value: 4e-15 },
+  { name: "Human cell volumes", name_singular: "Human cell volume", dimension: "volume", si_value: 4e-15 },
   // Grain of sand volume ~1e-11m³
-  { name: "Grains of sand (volume)", name_singular: "Grain of sand (volume)", dimension: "volume", si_value: 1e-11 },
+  { name: "Sand grain volumes", name_singular: "Sand grain volume", dimension: "volume", si_value: 1e-11 },
 
   // ── Area: fill sub-mm² gap ────────────────────────────────────────────
   // Human cell cross-section ~1e-9m²
@@ -74,7 +74,7 @@ export const sillyUnitsData: {
 
   // ── Pressure: fill low end ────────────────────────────────────────────
   // Sound of normal conversation ~0.02 Pa
-  { name: "Conversations (sound)", name_singular: "Conversation (sound)", dimension: "pressure", si_value: 0.02 },
+  { name: "Conversation volumes", name_singular: "Conversation volume", dimension: "pressure", si_value: 0.02 },
   // Blood pressure diastolic ~10600 Pa
   { name: "Diastolic blood pressures", name_singular: "Diastolic blood pressure", dimension: "pressure", si_value: 10600 },
 
@@ -94,7 +94,7 @@ export const sillyUnitsData: {
   // Insulin molecule ~1e-23 kg (~5800 Da)
   { name: "Insulin molecules", name_singular: "Insulin molecule", dimension: "mass", si_value: 1e-23 },
   // Typical virus particle ~1e-18 kg
-  { name: "Viruses (mass)", name_singular: "Virus (mass)", dimension: "mass", si_value: 1e-18 },
+  { name: "Virus weights", name_singular: "Virus weight", dimension: "mass", si_value: 1e-18 },
 
   // ── Mass: fill bacterium-to-pollen gap ────────────────────────────────
   // Human skin cell ~1e-12 kg
@@ -126,9 +126,9 @@ export const sillyUnitsData: {
 
   // ── Volume: fill human-cell-to-sand-grain gap ─────────────────────────
   // Pollen grain volume ~3e-13 m³
-  { name: "Pollen grains (volume)", name_singular: "Pollen grain (volume)", dimension: "volume", si_value: 3e-13 },
+  { name: "Pollen grain volumes", name_singular: "Pollen grain volume", dimension: "volume", si_value: 3e-13 },
 
   // ── Volume: fill Yankee-Stadium-to-Sydney-Harbour gap ─────────────────
   // Great Pyramid of Giza volume ~2.6e6 m³
-  { name: "Pyramids of Giza (volume)", name_singular: "Pyramid of Giza (volume)", dimension: "volume", si_value: 2.6e6 },
+  { name: "Great Pyramid volumes", name_singular: "Great Pyramid volume", dimension: "volume", si_value: 2.6e6 },
 ];

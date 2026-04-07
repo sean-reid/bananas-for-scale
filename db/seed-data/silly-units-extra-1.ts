@@ -18,7 +18,7 @@ export const sillyUnitsData: {
   { name: "Lego studs", name_singular: "Lego stud", dimension: "length", si_value: 0.008 },
 
   // ~0.045 m - a golf ball diameter
-  { name: "Golf balls (diameter)", name_singular: "Golf ball (diameter)", dimension: "length", si_value: 0.0427 },
+  { name: "Golf ball diameters", name_singular: "Golf ball diameter", dimension: "length", si_value: 0.0427 },
 
   // ~0.1 m - a hamster body length
   { name: "No. 2 pencils", name_singular: "No. 2 pencil", dimension: "length", si_value: 0.19 },
@@ -180,7 +180,7 @@ export const sillyUnitsData: {
   { name: "Kitchen trash cans", name_singular: "Kitchen trash can", dimension: "volume", si_value: 0.05 },
 
   // ~0.07 m3 - volume of an adult human body (~70 liters)
-  { name: "Human bodies (volume)", name_singular: "Human body (volume)", dimension: "volume", si_value: 0.07 },
+  { name: "Human body volumes", name_singular: "Human body volume", dimension: "volume", si_value: 0.07 },
 
   // ~2.8 m3 - interior of a porta-potty
   { name: "Porta-potties", name_singular: "Porta-potty", dimension: "volume", si_value: 1.13 },

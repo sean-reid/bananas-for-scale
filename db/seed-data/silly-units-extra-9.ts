@@ -125,11 +125,11 @@ export const sillyUnitsData: {
   // Chicken egg ~60 g = 0.06 kg
   { name: "Chicken eggs", name_singular: "Chicken egg", dimension: "mass", si_value: 0.06 },
   // Baseball ~145 g = 0.145 kg
-  { name: "Baseballs (mass)", name_singular: "Baseball (mass)", dimension: "mass", si_value: 0.145 },
+  { name: "Baseball weights", name_singular: "Baseball weight", dimension: "mass", si_value: 0.145 },
   // Great Pyramid of Giza — already exists, use Washington Monument ~82000 tonnes = 8.2e7 kg
   { name: "Washington Monuments", name_singular: "Washington Monument", dimension: "mass", si_value: 8.2e7 },
   // Grain of rice ~25 mg = 2.5e-5 kg
-  { name: "Grains of rice (mass)", name_singular: "Grain of rice (mass)", dimension: "mass", si_value: 2.5e-5 },
+  { name: "Rice grain weights", name_singular: "Rice grain weight", dimension: "mass", si_value: 2.5e-5 },
   // Pineapple ~1 kg
   { name: "Pineapples", name_singular: "Pineapple", dimension: "mass", si_value: 1 },
 
@@ -183,7 +183,7 @@ export const sillyUnitsData: {
   // Commercial jet ~250 m/s (900 km/h)
   { name: "Commercial jets", name_singular: "Commercial jet", dimension: "speed", si_value: 250 },
   // Rifle bullet ~900 m/s
-  { name: "Rifle bullets (speed)", name_singular: "Rifle bullet (speed)", dimension: "speed", si_value: 900 },
+  { name: "Rifle bullet speeds", name_singular: "Rifle bullet speed", dimension: "speed", si_value: 900 },
   // Orbiting satellite (LEO) ~7700 m/s
   { name: "Orbiting satellites", name_singular: "Orbiting satellite", dimension: "speed", si_value: 7700 },
   // Housefly ~2 m/s

@@ -220,7 +220,7 @@ export const sillyUnitsData: {
 
   // ── Energy (10 units) ────────────────────────────────────────────────
   // Popping one bubble wrap bubble ~0.07 J
-  { name: "Bubble wrap pops (energy)", name_singular: "Bubble wrap pop (energy)", dimension: "energy", si_value: 0.07 },
+  { name: "Bubble wrap pop energies", name_singular: "Bubble wrap pop energy", dimension: "energy", si_value: 0.07 },
   // Slamming a door ~5 J
   { name: "Slamming doors", name_singular: "Slamming door", dimension: "energy", si_value: 5 },
   // Bowling strike ~250 J
@@ -276,7 +276,7 @@ export const sillyUnitsData: {
   // Microwave minute ~60 s
   { name: "Microwave minutes", name_singular: "Microwave minute", dimension: "time", si_value: 60 },
   // Elevator ride ~30 s
-  { name: "Elevator rides (time)", name_singular: "Elevator ride (time)", dimension: "time", si_value: 30 },
+  { name: "Elevator ride durations", name_singular: "Elevator ride duration", dimension: "time", si_value: 30 },
   // Dog walk ~1800 s (30 min)
   { name: "Dog walks", name_singular: "Dog walk", dimension: "time", si_value: 1800 },
   // Car wash ~600 s (10 min)
@@ -286,7 +286,7 @@ export const sillyUnitsData: {
 
   // ── Mass (10 units) ──────────────────────────────────────────────────
   // Paperclip ~0.001 kg (1 gram)
-  { name: "Paperclips (mass)", name_singular: "Paperclip (mass)", dimension: "mass", si_value: 0.001 },
+  { name: "Paperclip weights", name_singular: "Paperclip weight", dimension: "mass", si_value: 0.001 },
   // Baseball ~0.145 kg
   { name: "Baseballs", name_singular: "Baseball", dimension: "mass", si_value: 0.145 },
   // Textbook ~1.5 kg
@@ -294,9 +294,9 @@ export const sillyUnitsData: {
   // Labrador retriever ~30 kg
   { name: "Labrador retrievers", name_singular: "Labrador retriever", dimension: "mass", si_value: 30 },
   // Locomotive ~100000 kg (100 tonnes)
-  { name: "Locomotives (mass)", name_singular: "Locomotive (mass)", dimension: "mass", si_value: 1e5 },
+  { name: "Locomotive weights", name_singular: "Locomotive weight", dimension: "mass", si_value: 1e5 },
   // Boeing 747 max takeoff ~412775 kg
-  { name: "Boeing 747s (mass)", name_singular: "Boeing 747 (mass)", dimension: "mass", si_value: 4.12e5 },
+  { name: "Empty Boeing 747s", name_singular: "Empty Boeing 747", dimension: "mass", si_value: 4.12e5 },
   // Bowling ball ~6.35 kg (14 lbs)
   { name: "Bowling balls", name_singular: "Bowling ball", dimension: "mass", si_value: 6.35 },
   // Bag of flour ~2.27 kg (5 lbs)
@@ -316,13 +316,13 @@ export const sillyUnitsData: {
   // Tennis net height ~0.914 m
   { name: "Tennis nets", name_singular: "Tennis net", dimension: "length", si_value: 0.914 },
   // City block ~100 m
-  { name: "City blocks (length)", name_singular: "City block (length)", dimension: "length", si_value: 100 },
+  { name: "City block lengths", name_singular: "City block length", dimension: "length", si_value: 100 },
   // Marathon route ~42195 m
   { name: "Marathon routes", name_singular: "Marathon route", dimension: "length", si_value: 42195 },
   // Skateboard ~0.81 m (32 in)
   { name: "Skateboard lengths", name_singular: "Skateboard length", dimension: "length", si_value: 0.81 },
   // Bowling lane ~18.29 m (60 ft)
-  { name: "Bowling lanes (length)", name_singular: "Bowling lane (length)", dimension: "length", si_value: 18.29 },
+  { name: "Bowling lane lengths", name_singular: "Bowling lane length", dimension: "length", si_value: 18.29 },
   // Shipping lane (English Channel) ~34000 m
   { name: "English Channel crossings", name_singular: "English Channel crossing", dimension: "length", si_value: 34000 },
   // Suspension bridge span (Golden Gate main span) ~1280 m

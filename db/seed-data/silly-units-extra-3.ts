@@ -85,7 +85,7 @@ export const sillyUnitsData: {
   // NBA basketball court 94ft x 50ft = 436.6m²
   { name: "Basketball courts", name_singular: "Basketball court", dimension: "area", si_value: 436.6 },
   // Olympic swimming pool 50m x 25m = 1250m²
-  { name: "Olympic pools (area)", name_singular: "Olympic pool (area)", dimension: "area", si_value: 1250 },
+  { name: "Olympic pool surfaces", name_singular: "Olympic pool surface", dimension: "area", si_value: 1250 },
   // Texas area = 696,241 km² = 6.96241e11 m²
   { name: "Texases", name_singular: "Texas", dimension: "area", si_value: 6.96241e11 },
   // Standard US postage stamp ~24mm x 25mm = 0.0006m²

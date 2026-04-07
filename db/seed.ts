@@ -36,6 +36,10 @@ import { sillyUnitsData as extraUnits9 } from "./seed-data/silly-units-extra-9";
 import { sillyUnitsData as extraUnits10 } from "./seed-data/silly-units-extra-10";
 import { sillyUnitsData as extraUnits11 } from "./seed-data/silly-units-extra-11";
 import { sillyUnitsData as extraUnits12 } from "./seed-data/silly-units-extra-12";
+import { sillyUnitsData as extraUnits13 } from "./seed-data/silly-units-extra-13";
+import { sillyUnitsData as extraUnits14 } from "./seed-data/silly-units-extra-14";
+import { sillyUnitsData as extraUnits15 } from "./seed-data/silly-units-extra-15";
+import { sillyUnitsData as extraUnits16 } from "./seed-data/silly-units-extra-16";
 
 // ── Database setup ────────────────────────────────────────────────────────
 
@@ -131,7 +135,7 @@ const originalSillyUnits: {
   { name: "Earth diameters", name_singular: "Earth diameter", dimension: "length", si_value: 12742000.0 },
   { name: "Light-nanoseconds", name_singular: "Light-nanosecond", dimension: "length", si_value: 0.2998 },
   { name: "Standard pool noodles", name_singular: "Standard pool noodle", dimension: "length", si_value: 1.5 },
-  { name: "Toilet paper rolls (unrolled)", name_singular: "Toilet paper roll (unrolled)", dimension: "length", si_value: 45.0 },
+  { name: "Unrolled toilet paper rolls", name_singular: "Unrolled toilet paper roll", dimension: "length", si_value: 45.0 },
   { name: "Stacked hamsters", name_singular: "Stacked hamster", dimension: "length", si_value: 0.06 },
   { name: "Oscar statuettes", name_singular: "Oscar statuette", dimension: "length", si_value: 0.343 },
 
@@ -166,7 +170,7 @@ const originalSillyUnits: {
   { name: "Microwave minutes", name_singular: "Microwave minute", dimension: "time", si_value: 60.0 },
   { name: "Microcenturies", name_singular: "Microcentury", dimension: "time", si_value: 3156.0 },
   { name: "Dog years", name_singular: "Dog year", dimension: "time", si_value: 220752000.0 },
-  { name: "Sneezes (duration)", name_singular: "Sneeze (duration)", dimension: "time", si_value: 0.5 },
+  { name: "Sneeze durations", name_singular: "Sneeze duration", dimension: "time", si_value: 0.5 },
   { name: "Commercial breaks", name_singular: "Commercial break", dimension: "time", si_value: 180.0 },
   { name: "Mayfly lifespans", name_singular: "Mayfly lifespan", dimension: "time", si_value: 86400.0 },
   { name: '"Be right back"s', name_singular: '"Be right back"', dimension: "time", si_value: 1800.0 },
@@ -237,7 +241,7 @@ const originalSillyUnits: {
   { name: "Room temperatures", name_singular: "Room temperature", dimension: "temperature", si_value: 295 },
   { name: "Car dashboards in summer", name_singular: "Car dashboard in summer", dimension: "temperature", si_value: 344 },
   { name: "Refrigerators", name_singular: "Refrigerator", dimension: "temperature", si_value: 277 },
-  { name: "Hot Pockets (inside)", name_singular: "Hot Pocket (inside)", dimension: "temperature", si_value: 366 },
+  { name: "Hot Pocket centers", name_singular: "Hot Pocket center", dimension: "temperature", si_value: 366 },
   { name: "Lukewarm coffees", name_singular: "Lukewarm coffee", dimension: "temperature", si_value: 310 },
   { name: "Laptop surfaces", name_singular: "Laptop surface", dimension: "temperature", si_value: 340 },
 
@@ -301,7 +305,7 @@ const originalSillyUnits: {
 
 // ── Merge and deduplicate silly units by name ─────────────────────────────
 
-const allSillyUnitsRaw = [...originalSillyUnits, ...extraUnits1, ...extraUnits2, ...extraUnits3, ...extraUnits4, ...extraUnits5, ...extraUnits6, ...extraUnits7, ...extraUnits8, ...extraUnits9, ...extraUnits10, ...extraUnits11, ...extraUnits12];
+const allSillyUnitsRaw = [...originalSillyUnits, ...extraUnits1, ...extraUnits2, ...extraUnits3, ...extraUnits4, ...extraUnits5, ...extraUnits6, ...extraUnits7, ...extraUnits8, ...extraUnits9, ...extraUnits10, ...extraUnits11, ...extraUnits12, ...extraUnits13, ...extraUnits14, ...extraUnits15, ...extraUnits16];
 const sillyUnitsMap = new Map<string, (typeof originalSillyUnits)[0]>();
 for (const unit of allSillyUnitsRaw) {
   if (!sillyUnitsMap.has(unit.name)) {

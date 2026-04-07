@@ -123,7 +123,7 @@ export const sillyUnitsData: {
   // Smartphone charging ~5 W
   { name: "Phone chargers", name_singular: "Phone charger", dimension: "power", si_value: 5 },
   // Microwave oven ~1000 W
-  { name: "Microwave ovens (power)", name_singular: "Microwave oven (power)", dimension: "power", si_value: 1000 },
+  { name: "Running microwaves", name_singular: "Running microwave", dimension: "power", si_value: 1000 },
   // Sprinting human ~2000 W
   { name: "Sprinting humans", name_singular: "Sprinting human", dimension: "power", si_value: 2000 },
   // Formula 1 car ~750 kW
@@ -169,7 +169,7 @@ export const sillyUnitsData: {
   // Average MP3 song ~4 MB = 4e6 bytes
   { name: "Downloaded MP3s", name_singular: "Downloaded MP3", dimension: "data", si_value: 4000000 },
   // Wikipedia (text only) ~22 GB = 2.2e10 bytes
-  { name: "Wikipedias (text only)", name_singular: "Wikipedia (text only)", dimension: "data", si_value: 2.2e10 },
+  { name: "Wikipedia text dumps", name_singular: "Wikipedia text dump", dimension: "data", si_value: 2.2e10 },
   // Single email ~75 KB = 75000 bytes
   { name: "Emails", name_singular: "Email", dimension: "data", si_value: 75000 },
   // One minute of Spotify streaming ~1 MB
@@ -179,7 +179,7 @@ export const sillyUnitsData: {
   // Library of Congress ~10 TB = 1e13 bytes
   { name: "Libraries of Congress", name_singular: "Library of Congress", dimension: "data", si_value: 1e13 },
   // One TikTok video ~10 MB = 1e7 bytes
-  { name: "TikTok videos (data)", name_singular: "TikTok video (data)", dimension: "data", si_value: 10000000 },
+  { name: "TikTok video files", name_singular: "TikTok video file", dimension: "data", si_value: 10000000 },
   // Global daily internet traffic ~5 EB = 5e18 bytes
   { name: "Daily internet traffics", name_singular: "Daily internet traffic", dimension: "data", si_value: 5e18 },
   // Single printed page (plain text) ~2 KB = 2000 bytes

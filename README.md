@@ -17,7 +17,7 @@ npm run dev       # start dev server at localhost:3000
 Everything is **static**. At build time, a SQLite database of things, measurements, and silly units is compiled into pre-rendered HTML pages. No server, no API, no database at runtime.
 
 - **766 things** across 57 categories
-- **~1057 silly units** across 14 dimensions (length, mass, time, volume, area, speed, temperature, energy, force, pressure, power, frequency, data, count)
+- **1,258 silly units** across 14 dimensions (length, mass, time, volume, area, speed, temperature, energy, force, pressure, power, frequency, data, count)
 - **100% image coverage** for all things
 - **Deterministic conversions** with a seeded PRNG for stable builds
 - **Client-side remix** to shuffle which silly units are shown

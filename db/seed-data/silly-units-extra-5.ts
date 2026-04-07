@@ -34,7 +34,7 @@ export const sillyUnitsData: {
   // Pressure of a stiletto heel on a floor ~4,500,000 Pa
   { name: "Stiletto heel pressures", name_singular: "Stiletto heel pressure", dimension: "pressure", si_value: 4500000 },
   // Blood pressure systolic normal ~16,000 Pa (120 mmHg)
-  { name: "Heartbeats (pressure)", name_singular: "Heartbeat (pressure)", dimension: "pressure", si_value: 16000 },
+  { name: "Systolic blood pressures", name_singular: "Systolic blood pressure", dimension: "pressure", si_value: 16000 },
   // Bicycle tire ~690,000 Pa (100 psi)
   { name: "Bicycle tires", name_singular: "Bicycle tire", dimension: "pressure", si_value: 690000 },
   // Espresso machine ~900,000 Pa (9 bar)
@@ -62,7 +62,7 @@ export const sillyUnitsData: {
   // Average podcast episode ~60,000,000 bytes (60 MB)
   { name: "Podcast episodes", name_singular: "Podcast episode", dimension: "data", si_value: 60000000 },
   // Floppy disk 1.44 MB = 1,474,560 bytes
-  { name: "Floppy disks (data)", name_singular: "Floppy disk (data)", dimension: "data", si_value: 1474560 },
+  { name: "Floppy disk capacities", name_singular: "Floppy disk capacity", dimension: "data", si_value: 1474560 },
   // GTA V install ~100 GB = 100,000,000,000 bytes
   { name: "GTA V installs", name_singular: "GTA V install", dimension: "data", si_value: 100000000000 },
   // Average voicemail ~200,000 bytes (200 KB)
@@ -79,7 +79,7 @@ export const sillyUnitsData: {
   // Blender making a smoothie ~600 W
   { name: "Blenders", name_singular: "Blender", dimension: "power", si_value: 600 },
   // Hair dryer ~1800 W
-  { name: "Hair dryers (power)", name_singular: "Hair dryer (power)", dimension: "power", si_value: 1800 },
+  { name: "Running hair dryers", name_singular: "Running hair dryer", dimension: "power", si_value: 1800 },
   // Electric oven ~5000 W
   { name: "Electric ovens", name_singular: "Electric oven", dimension: "power", si_value: 5000 },
   // Solar panel single residential ~400 W
@@ -92,7 +92,7 @@ export const sillyUnitsData: {
   // ── Force (N) ─── 8 units ─────────────────────────────────────────────────
 
   // Mosquito landing ~0.00001 N
-  { name: "Mosquito landings (force)", name_singular: "Mosquito landing (force)", dimension: "force", si_value: 0.00001 },
+  { name: "Mosquito landing forces", name_singular: "Mosquito landing force", dimension: "force", si_value: 0.00001 },
   // Force to press an elevator button ~1 N
   { name: "Button presses", name_singular: "Button press", dimension: "force", si_value: 1 },
   // Average dog pulling on a leash ~50 N — already exists, use cat knocking things off tables
@@ -131,7 +131,7 @@ export const sillyUnitsData: {
   // ── Energy (J) ─── 8 units ────────────────────────────────────────────────
 
   // Energy in a single grape ~2.9 J (0.7 calories)
-  { name: "Grapes (calories)", name_singular: "Grape (calories)", dimension: "energy", si_value: 2.9 },
+  { name: "Grape calories", name_singular: "Grape calorie", dimension: "energy", si_value: 2.9 },
   // Snap of a finger ~0.001 J
   { name: "Finger snaps", name_singular: "Finger snap", dimension: "energy", si_value: 0.001 },
   // Energy to boil a cup of water ~330,000 J (330 kJ)
@@ -141,9 +141,7 @@ export const sillyUnitsData: {
   // Big Mac ~2,200,000 J (540 kcal)
   { name: "Big Macs", name_singular: "Big Mac", dimension: "energy", si_value: 2200000 },
   // Lightning bolt ~1,000,000,000 J (1 GJ)
-  { name: "Lightning bolts (energy)", name_singular: "Lightning bolt (energy)", dimension: "energy", si_value: 1000000000 },
-  // Energy in a AA battery ~9360 J
-  { name: "AA batteries (extra)", name_singular: "AA battery (extra)", dimension: "energy", si_value: 9360 },
+  { name: "Lightning bolt energies", name_singular: "Lightning bolt energy", dimension: "energy", si_value: 1000000000 },
   // Tsar Bomba ~2.1e17 J
   { name: "Tsar Bombas", name_singular: "Tsar Bomba", dimension: "energy", si_value: 2.1e17 },
 
@@ -158,7 +156,7 @@ export const sillyUnitsData: {
   // Usain Bolt top speed ~12.4 m/s
   { name: "Usain Bolt sprints", name_singular: "Usain Bolt sprint", dimension: "speed", si_value: 12.4 },
   // Sneeze ~44.7 m/s (100 mph)
-  { name: "Sneezes (speed)", name_singular: "Sneeze (speed)", dimension: "speed", si_value: 44.7 },
+  { name: "Sneeze velocities", name_singular: "Sneeze velocity", dimension: "speed", si_value: 44.7 },
   // Speed of sound in helium ~927 m/s
   { name: "Sound in helium", name_singular: "Sound in helium", dimension: "speed", si_value: 927 },
   // Bullet from an AK-47 ~715 m/s
@@ -174,29 +172,15 @@ export const sillyUnitsData: {
   { name: "Pizza box tops", name_singular: "Pizza box top", dimension: "area", si_value: 0.16 },
   // Twin bed ~1.6 m^2
   { name: "Twin beds", name_singular: "Twin bed", dimension: "area", si_value: 1.6 },
-  // Average yoga mat ~1.7 m^2
-  { name: "Yoga mats (extra)", name_singular: "Yoga mat (extra)", dimension: "area", si_value: 1.7 },
   // Parking space ~12.5 m^2
   { name: "Parking spots", name_singular: "Parking spot", dimension: "area", si_value: 12.5 },
-  // Tennis court ~260.87 m^2
-  { name: "Tennis courts (extra)", name_singular: "Tennis court (extra)", dimension: "area", si_value: 260.87 },
   // Walmart Supercenter ~16,700 m^2
   { name: "Walmart Supercenters", name_singular: "Walmart Supercenter", dimension: "area", si_value: 16700 },
-  // Rhode Island ~3,144,000,000 m^2 (3,144 km^2)
-  { name: "Rhode Islands (extra)", name_singular: "Rhode Island (extra)", dimension: "area", si_value: 3.144e9 },
 
   // ── Volume (m^3) ─── 8 units ──────────────────────────────────────────────
 
   // Teaspoon ~5e-6 m^3
   { name: "Cough syrup doses", name_singular: "Cough syrup dose", dimension: "volume", si_value: 5e-6 },
-  // Solo cup ~4.73e-4 m^3 (473 mL)
-  { name: "Solo cups (extra)", name_singular: "Solo cup (extra)", dimension: "volume", si_value: 4.73e-4 },
-  // Bathtub ~0.3 m^3 (300 liters)
-  { name: "Bathtubs (extra)", name_singular: "Bathtub (extra)", dimension: "volume", si_value: 0.3 },
-  // Hot tub ~1.5 m^3 (1500 liters)
-  { name: "Hot tubs (extra)", name_singular: "Hot tub (extra)", dimension: "volume", si_value: 1.5 },
-  // Dumpster ~7.6 m^3 (8 cubic yards)
-  { name: "Dumpsters (extra)", name_singular: "Dumpster (extra)", dimension: "volume", si_value: 7.6 },
   // Cement mixer truck ~8 m^3
   { name: "Cement mixers", name_singular: "Cement mixer", dimension: "volume", si_value: 8 },
   // Shot glass ~4.4e-5 m^3 (44 mL)
@@ -211,8 +195,6 @@ export const sillyUnitsData: {
   { name: "Red lights", name_singular: "Red light", dimension: "time", si_value: 90 },
   // Microwave minute ~60 s
   { name: "Minutes", name_singular: "Minute", dimension: "time", si_value: 60 },
-  // Dog year ~220,752,000 s (7 * 365.25 * 86400)
-  { name: "Dog years (extra)", name_singular: "Dog year (extra)", dimension: "time", si_value: 220752000 },
   // Time between someone saying they are five minutes away and arriving ~900 s (15 min)
   { name: "Quarter hours", name_singular: "Quarter hour", dimension: "time", si_value: 900 },
   // Average commercial break ~240 s (4 min)
@@ -223,14 +205,8 @@ export const sillyUnitsData: {
   // ── Mass (kg) ─── 5 units ─────────────────────────────────────────────────
 
   // Eyelash ~0.00006 kg (60 micrograms? No, ~60-100 micrograms = 6e-8 to 1e-7 kg)
-  // Actually an eyelash ~62 micrograms = 6.2e-8 kg
-  { name: "Eyelashes (extra)", name_singular: "Eyelash (extra)", dimension: "mass", si_value: 6.2e-8 },
-  // Chihuahua ~2 kg
-  { name: "Chihuahuas (extra)", name_singular: "Chihuahua (extra)", dimension: "mass", si_value: 2 },
-  // Blue whale tongue ~2700 kg
-  { name: "Blue whale tongues (extra)", name_singular: "Blue whale tongue (extra)", dimension: "mass", si_value: 2700 },
   // Statue of Liberty (copper and steel) ~204,000 kg
-  { name: "Statues of Liberty (mass)", name_singular: "Statue of Liberty (mass)", dimension: "mass", si_value: 204000 },
+  { name: "Statue of Liberty weights", name_singular: "Statue of Liberty weight", dimension: "mass", si_value: 204000 },
 
   // ── Length (m) ─── 5 units ────────────────────────────────────────────────
 
@@ -239,7 +215,7 @@ export const sillyUnitsData: {
   // Average subway car ~15.5 m
   { name: "Subway cars", name_singular: "Subway car", dimension: "length", si_value: 15.5 },
   // Football field (American) ~91.44 m (100 yards)
-  { name: "Football fields (length)", name_singular: "Football field (length)", dimension: "length", si_value: 91.44 },
+  { name: "Football field lengths", name_singular: "Football field length", dimension: "length", si_value: 91.44 },
   // Diameter of a red Skittle ~12 mm = 0.012 m
   { name: "Skittles", name_singular: "Skittle", dimension: "length", si_value: 0.012 },
   // Distance from Earth to Voyager 1 (approx 2024) ~2.4e13 m

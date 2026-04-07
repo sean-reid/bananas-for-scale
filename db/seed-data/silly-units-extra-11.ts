@@ -51,15 +51,15 @@ export const sillyUnitsData: {
   // Measuring subatomic particles in terms of molecules people know
 
   // Caffeine molecule mass ~3.2e-25kg
-  { name: "Caffeine molecules (mass)", name_singular: "Caffeine molecule (mass)", dimension: "mass", si_value: 3.2e-25 },
+  { name: "Caffeine molecule weights", name_singular: "Caffeine molecule weight", dimension: "mass", si_value: 3.2e-25 },
   // Glucose molecule mass ~3e-25kg
-  { name: "Glucose molecules (mass)", name_singular: "Glucose molecule (mass)", dimension: "mass", si_value: 3e-25 },
+  { name: "Glucose molecule weights", name_singular: "Glucose molecule weight", dimension: "mass", si_value: 3e-25 },
   // Hemoglobin molecule mass ~1.1e-22kg
-  { name: "Hemoglobin molecules (mass)", name_singular: "Hemoglobin molecule (mass)", dimension: "mass", si_value: 1.1e-22 },
+  { name: "Hemoglobin molecule weights", name_singular: "Hemoglobin molecule weight", dimension: "mass", si_value: 1.1e-22 },
   // Single DNA base pair ~1.1e-24kg (average ~650 Da)
   { name: "DNA base pairs", name_singular: "DNA base pair", dimension: "mass", si_value: 1.1e-24 },
   // Ribosome mass ~4.2e-21kg
-  { name: "Ribosomes (mass)", name_singular: "Ribosome (mass)", dimension: "mass", si_value: 4.2e-21 },
+  { name: "Ribosome weights", name_singular: "Ribosome weight", dimension: "mass", si_value: 4.2e-21 },
 
   // ── Energy: sub-nanojoule (1e-20 to 1e-13) ───────────────────────────
   // Chemical bond energies, molecular vibrations
@@ -76,7 +76,7 @@ export const sillyUnitsData: {
   { name: "Infrared photons", name_singular: "Infrared photon", dimension: "energy", si_value: 2e-20 },
 
   // ── Volume: sub-picoliter (1e-20 to 1e-15) ───────────────────────────
-  { name: "Viruses (volume)", name_singular: "Virus (volume)", dimension: "volume", si_value: 5e-25 },
-  { name: "Ribosomes (volume)", name_singular: "Ribosome (volume)", dimension: "volume", si_value: 4e-24 },
+  { name: "Virus interiors", name_singular: "Virus interior", dimension: "volume", si_value: 5e-25 },
+  { name: "Ribosome interiors", name_singular: "Ribosome interior", dimension: "volume", si_value: 4e-24 },
   { name: "Mitochondria", name_singular: "Mitochondrion", dimension: "volume", si_value: 1e-18 },
 ];
