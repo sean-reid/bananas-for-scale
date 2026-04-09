@@ -1606,7 +1606,7 @@ export const thingsData: ThingInput[] = [
     subtitle: "An iridescent insect that inspired bulletproof color technology",
     category_id: "insects",
     description:
-      "Jewel beetles (family Buprestidae) are named for their glossy, iridescent exoskeletons, which display vivid metallic greens, blues, and golds. A typical jewel beetle is about 2 to 4 cm long. The color comes not from pigments but from nanostructures in the exoskeleton that refract light, a principle that has inspired developments in anticounterfeit technology. In some Asian cultures, jewel beetle wing cases have been used in textiles and jewelry for centuries. The family contains over 15,000 known species worldwide.",
+      "Jewel beetles (family Buprestidae) are named for their glossy, iridescent exoskeletons, which display vivid metallic greens, blues, and golds. A typical jewel beetle is about 2 to 4 cm long. The color comes not from pigments but from nanostructures in the exoskeleton that diffract light, a principle that has inspired developments in anticounterfeit technology. In some Asian cultures, jewel beetle wing cases have been used in textiles and jewelry for centuries. The family contains over 15,000 known species worldwide.",
     search_terms:
       "jewel beetle|buprestidae|iridescent|metallic|nanostructure|structural color",
     featured: 0,
