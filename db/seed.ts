@@ -28,6 +28,10 @@ import { thingsData as thingsExtra6, categoriesData as catsExtra6 } from "./seed
 import { thingsData as thingsExtra7, categoriesData as catsExtra7 } from "./seed-data/things-extra-7";
 import { thingsData as thingsExtra8 } from "./seed-data/things-extra-8";
 import { thingsData as thingsExtra9 } from "./seed-data/things-extra-9";
+import { thingsData as thingsExtra10, categoriesData as catsExtra10 } from "./seed-data/things-extra-10";
+import { thingsData as thingsExtra11, categoriesData as catsExtra11 } from "./seed-data/things-extra-11";
+import { thingsData as thingsExtra12, categoriesData as catsExtra12 } from "./seed-data/things-extra-12";
+import { thingsData as thingsExtra13 } from "./seed-data/things-extra-13";
 import { sillyUnitsData as extraUnits5 } from "./seed-data/silly-units-extra-5";
 import { sillyUnitsData as extraUnits6 } from "./seed-data/silly-units-extra-6";
 import { sillyUnitsData as extraUnits7 } from "./seed-data/silly-units-extra-7";
@@ -352,6 +356,9 @@ const categoriesData = [
   ...catsExtra5,
   ...catsExtra6,
   ...catsExtra7,
+  ...catsExtra10,
+  ...catsExtra11,
+  ...catsExtra12,
 ];
 
 // ── Original things (from seed.ts) ────────────────────────────────────────
@@ -549,6 +556,10 @@ const allThingsRaw: ThingInput[] = [
   ...thingsExtra7,
   ...thingsExtra8,
   ...thingsExtra9,
+  ...thingsExtra10,
+  ...thingsExtra11,
+  ...thingsExtra12,
+  ...thingsExtra13,
 ];
 
 const thingsMap = new Map<string, ThingInput>();

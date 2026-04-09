@@ -3126,8 +3126,14 @@ export const imageData: Record<
     image_url: "/images/things/the-bible-standard.jpg",
     image_credit: "Photo from Wikimedia Commons",
   },
-  "thors-stormbreaker": null,
-  "barad-dur": null,
+  "thors-stormbreaker": {
+    image_url: "/images/things/thors-stormbreaker.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "barad-dur": {
+    image_url: "/images/things/barad-dur.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
   "barbie-doll": {
     image_url: "/images/things/barbie-doll.jpg",
     image_credit: "Photo from Wikimedia Commons",
@@ -3272,6 +3278,1554 @@ export const imageData: Record<
   },
   "zhangjiajie-pillars": {
     image_url: "/images/things/zhangjiajie-pillars.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+
+  // ── Things-extra-11 new additions ──────────────────────────────────────────
+
+  "sutton-hoo-helmet": {
+    image_url: "/images/things/sutton-hoo-helmet.jpg",
+    image_credit: "Photo from Wikimedia Commons (British Museum)",
+  },
+  "fingals-cave": {
+    image_url: "/images/things/fingals-cave.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pamukkale-terraces": {
+    image_url: "/images/things/pamukkale-terraces.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "trans-alaska-pipeline": {
+    image_url: "/images/things/trans-alaska-pipeline.jpg",
+    image_credit: "Photo by Luca Galuzzi, Wikimedia Commons (CC BY-SA 2.5)",
+  },
+  "dubrovnik-city": {
+    image_url: "/images/things/dubrovnik-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bruges-city": {
+    image_url: "/images/things/bruges-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "torres-del-paine": {
+    image_url: "/images/things/torres-del-paine.jpg",
+    image_credit: "Photo by Karen Chan, Wikimedia Commons",
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // THINGS-EXTRA-10: Inventions, Geology, Biology, Dinosaurs, Extinct,
+  // Marine, Insects, Birds, Plants
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  "printing-press-gutenberg": {
+    image_url: "/images/things/printing-press-gutenberg.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "watt-steam-engine": {
+    image_url: "/images/things/watt-steam-engine.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "edison-light-bulb": {
+    image_url: "/images/things/edison-light-bulb.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "magnetic-compass": {
+    image_url: "/images/things/magnetic-compass.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "galileo-telescope": {
+    image_url: "/images/things/galileo-telescope.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "penicillin-mold-culture": {
+    image_url: "/images/things/penicillin-mold-culture.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dynamite-stick": {
+    image_url: "/images/things/dynamite-stick.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "first-transistor": {
+    image_url: "/images/things/first-transistor.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "ancient-wheel": {
+    image_url: "/images/things/ancient-wheel.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "edison-phonograph": {
+    image_url: "/images/things/edison-phonograph.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "optical-microscope": {
+    image_url: "/images/things/optical-microscope.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "telegraph-key": {
+    image_url: "/images/things/telegraph-key.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "vaccination-syringe": {
+    image_url: "/images/things/vaccination-syringe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "spinning-jenny": {
+    image_url: "/images/things/spinning-jenny.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "daguerreotype-camera": {
+    image_url: "/images/things/daguerreotype-camera.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "rough-diamond": {
+    image_url: "/images/things/rough-diamond.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "quartz-crystal": {
+    image_url: "/images/things/quartz-crystal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "obsidian-blade": {
+    image_url: "/images/things/obsidian-blade.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "granite-block": {
+    image_url: "/images/things/granite-block.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "amethyst-geode": {
+    image_url: "/images/things/amethyst-geode.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hoba-meteorite": {
+    image_url: "/images/things/hoba-meteorite.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "naica-giant-crystal": {
+    image_url: "/images/things/naica-giant-crystal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "san-andreas-fault": {
+    image_url: "/images/things/san-andreas-fault.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "mid-atlantic-ridge": {
+    image_url: "/images/things/mid-atlantic-ridge.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "earths-inner-core": {
+    image_url: "/images/things/earths-inner-core.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "giants-causeway-column": {
+    image_url: "/images/things/giants-causeway-column.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pumice-stone": {
+    image_url: "/images/things/pumice-stone.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fools-gold-nugget": {
+    image_url: "/images/things/fools-gold-nugget.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "petrified-wood-log": {
+    image_url: "/images/things/petrified-wood-log.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "delicate-arch": {
+    image_url: "/images/things/delicate-arch.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "honey-fungus": {
+    image_url: "/images/things/honey-fungus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "methuselah-tree": {
+    image_url: "/images/things/methuselah-tree.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bumblebee-bat": {
+    image_url: "/images/things/bumblebee-bat.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "coco-de-mer-seed": {
+    image_url: "/images/things/coco-de-mer-seed.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bioluminescent-dinoflagellate": {
+    image_url: "/images/things/bioluminescent-dinoflagellate.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "neuron-cell": {
+    image_url: "/images/things/neuron-cell.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "chloroplast": {
+    image_url: "/images/things/chloroplast.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "synapse-gap": {
+    image_url: "/images/things/synapse-gap.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "shepherds-tree-root": {
+    image_url: "/images/things/shepherds-tree-root.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "raphia-palm-leaf": {
+    image_url: "/images/things/raphia-palm-leaf.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tardigrade-egg": {
+    image_url: "/images/things/tardigrade-egg.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "blue-whale-calf": {
+    image_url: "/images/things/blue-whale-calf.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "giganotosaurus": {
+    image_url: "/images/things/giganotosaurus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "microraptor": {
+    image_url: "/images/things/microraptor.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "argentinosaurus": {
+    image_url: "/images/things/argentinosaurus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "quetzalcoatlus": {
+    image_url: "/images/things/quetzalcoatlus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "compsognathus": {
+    image_url: "/images/things/compsognathus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "parasaurolophus": {
+    image_url: "/images/things/parasaurolophus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pachycephalosaurus": {
+    image_url: "/images/things/pachycephalosaurus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "therizinosaurus": {
+    image_url: "/images/things/therizinosaurus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "carnotaurus": {
+    image_url: "/images/things/carnotaurus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "iguanodon": {
+    image_url: "/images/things/iguanodon.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "saber-toothed-cat": {
+    image_url: "/images/things/saber-toothed-cat.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "giant-ground-sloth": {
+    image_url: "/images/things/giant-ground-sloth.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "irish-elk": {
+    image_url: "/images/things/irish-elk.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "passenger-pigeon": {
+    image_url: "/images/things/passenger-pigeon.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tasmanian-tiger": {
+    image_url: "/images/things/tasmanian-tiger.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dunkleosteus": {
+    image_url: "/images/things/dunkleosteus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "great-auk": {
+    image_url: "/images/things/great-auk.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "quagga": {
+    image_url: "/images/things/quagga.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "terror-bird": {
+    image_url: "/images/things/terror-bird.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "meganeura-giant-dragonfly": {
+    image_url: "/images/things/meganeura-giant-dragonfly.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "mantis-shrimp": {
+    image_url: "/images/things/mantis-shrimp.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "box-jellyfish": {
+    image_url: "/images/things/box-jellyfish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "common-cuttlefish": {
+    image_url: "/images/things/common-cuttlefish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "leafy-sea-dragon": {
+    image_url: "/images/things/leafy-sea-dragon.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "goblin-shark": {
+    image_url: "/images/things/goblin-shark.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "blanket-octopus": {
+    image_url: "/images/things/blanket-octopus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "barrel-sponge": {
+    image_url: "/images/things/barrel-sponge.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "crown-of-thorns-starfish": {
+    image_url: "/images/things/crown-of-thorns-starfish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "japanese-spider-crab": {
+    image_url: "/images/things/japanese-spider-crab.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "ocean-sunfish-mola-mola": {
+    image_url: "/images/things/ocean-sunfish-mola-mola.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "chans-megastick": {
+    image_url: "/images/things/chans-megastick.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "luna-moth": {
+    image_url: "/images/things/luna-moth.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bombardier-beetle": {
+    image_url: "/images/things/bombardier-beetle.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "periodical-cicada": {
+    image_url: "/images/things/periodical-cicada.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "giant-weta": {
+    image_url: "/images/things/giant-weta.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "asian-giant-hornet": {
+    image_url: "/images/things/asian-giant-hornet.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "jewel-beetle": {
+    image_url: "/images/things/jewel-beetle.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "army-ant-single": {
+    image_url: "/images/things/army-ant-single.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "leaf-insect": {
+    image_url: "/images/things/leaf-insect.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "orchid-mantis": {
+    image_url: "/images/things/orchid-mantis.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bee-hummingbird": {
+    image_url: "/images/things/bee-hummingbird.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "shoebill": {
+    image_url: "/images/things/shoebill.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "kea-parrot": {
+    image_url: "/images/things/kea-parrot.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "resplendent-quetzal": {
+    image_url: "/images/things/resplendent-quetzal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "superb-lyrebird": {
+    image_url: "/images/things/superb-lyrebird.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "atlantic-puffin": {
+    image_url: "/images/things/atlantic-puffin.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hoatzin": {
+    image_url: "/images/things/hoatzin.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "greater-roadrunner": {
+    image_url: "/images/things/greater-roadrunner.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "riflebird": {
+    image_url: "/images/things/riflebird.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "great-frigatebird": {
+    image_url: "/images/things/great-frigatebird.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "baobab-tree": {
+    image_url: "/images/things/baobab-tree.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dragon-blood-tree": {
+    image_url: "/images/things/dragon-blood-tree.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "giant-water-lily": {
+    image_url: "/images/things/giant-water-lily.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "strangler-fig": {
+    image_url: "/images/things/strangler-fig.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "welwitschia-plant": {
+    image_url: "/images/things/welwitschia-plant.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "andean-condor": {
+    image_url: "/images/things/andean-condor.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // THINGS-EXTRA-12: Space Missions, Historical Weapons, World Cuisines,
+  // Human Body, Everyday Objects, Technology, Sports, Vehicles, Art
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  "curiosity-rover": {
+    image_url: "/images/things/curiosity-rover.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "new-horizons-probe": {
+    image_url: "/images/things/new-horizons-probe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "cassini-spacecraft": {
+    image_url: "/images/things/cassini-spacecraft.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "sputnik-1": {
+    image_url: "/images/things/sputnik-1.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lunar-rover-apollo": {
+    image_url: "/images/things/lunar-rover-apollo.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "skylab-station": {
+    image_url: "/images/things/skylab-station.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "mir-space-station": {
+    image_url: "/images/things/mir-space-station.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tiangong-station": {
+    image_url: "/images/things/tiangong-station.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "spacex-starship": {
+    image_url: "/images/things/spacex-starship.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "rosetta-probe": {
+    image_url: "/images/things/rosetta-probe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pioneer-10-probe": {
+    image_url: "/images/things/pioneer-10-probe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "vostok-1-capsule": {
+    image_url: "/images/things/vostok-1-capsule.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "medieval-longbow": {
+    image_url: "/images/things/medieval-longbow.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "medieval-crossbow": {
+    image_url: "/images/things/medieval-crossbow.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "jousting-lance": {
+    image_url: "/images/things/jousting-lance.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "flintlock-musket": {
+    image_url: "/images/things/flintlock-musket.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "viking-round-shield": {
+    image_url: "/images/things/viking-round-shield.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "greek-phalanx-pike": {
+    image_url: "/images/things/greek-phalanx-pike.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "spartan-aspis-shield": {
+    image_url: "/images/things/spartan-aspis-shield.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bronze-age-sword": {
+    image_url: "/images/things/bronze-age-sword.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "roman-ballista": {
+    image_url: "/images/things/roman-ballista.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "soft-pretzel": {
+    image_url: "/images/things/soft-pretzel.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "ramen-bowl": {
+    image_url: "/images/things/ramen-bowl.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "empanada": {
+    image_url: "/images/things/empanada.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "naan-bread": {
+    image_url: "/images/things/naan-bread.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dim-sum-steamer-basket": {
+    image_url: "/images/things/dim-sum-steamer-basket.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "falafel-ball": {
+    image_url: "/images/things/falafel-ball.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "churro": {
+    image_url: "/images/things/churro.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "spring-roll": {
+    image_url: "/images/things/spring-roll.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tamale": {
+    image_url: "/images/things/tamale.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "baklava-piece": {
+    image_url: "/images/things/baklava-piece.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "human-lung-organ": {
+    image_url: "/images/things/human-lung-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "human-kidney-organ": {
+    image_url: "/images/things/human-kidney-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "spleen-organ": {
+    image_url: "/images/things/spleen-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pancreas-organ": {
+    image_url: "/images/things/pancreas-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "thyroid-gland-organ": {
+    image_url: "/images/things/thyroid-gland-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "adrenal-gland-organ": {
+    image_url: "/images/things/adrenal-gland-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "human-molar-tooth": {
+    image_url: "/images/things/human-molar-tooth.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lumbar-vertebra-bone": {
+    image_url: "/images/things/lumbar-vertebra-bone.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "human-hand-span": {
+    image_url: "/images/things/human-hand-span.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "trachea-organ": {
+    image_url: "/images/things/trachea-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "esophagus-organ": {
+    image_url: "/images/things/esophagus-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "appendix-organ": {
+    image_url: "/images/things/appendix-organ.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fire-extinguisher-abc": {
+    image_url: "/images/things/fire-extinguisher-abc.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "stop-sign": {
+    image_url: "/images/things/stop-sign.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "manhole-cover": {
+    image_url: "/images/things/manhole-cover.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "park-bench-standard": {
+    image_url: "/images/things/park-bench-standard.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "street-lamp-post": {
+    image_url: "/images/things/street-lamp-post.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "escalator-step": {
+    image_url: "/images/things/escalator-step.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "elevator-cab": {
+    image_url: "/images/things/elevator-cab.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "traffic-light-signal": {
+    image_url: "/images/things/traffic-light-signal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "us-mailbox-collection": {
+    image_url: "/images/things/us-mailbox-collection.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "usb-flash-drive": {
+    image_url: "/images/things/usb-flash-drive.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hard-drive-platter": {
+    image_url: "/images/things/hard-drive-platter.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "modern-cpu-die": {
+    image_url: "/images/things/modern-cpu-die.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "ram-stick-dimm": {
+    image_url: "/images/things/ram-stick-dimm.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "solar-cell-monocrystalline": {
+    image_url: "/images/things/solar-cell-monocrystalline.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "wind-turbine-blade": {
+    image_url: "/images/things/wind-turbine-blade.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "nuclear-fuel-rod": {
+    image_url: "/images/things/nuclear-fuel-rod.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fiber-optic-cable-spool": {
+    image_url: "/images/things/fiber-optic-cable-spool.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "quantum-computer-dilution-fridge": {
+    image_url: "/images/things/quantum-computer-dilution-fridge.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "server-rack-42u-unit": {
+    image_url: "/images/things/server-rack-42u-unit.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "submarine-cable-cross-section": {
+    image_url: "/images/things/submarine-cable-cross-section.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "5g-cell-tower": {
+    image_url: "/images/things/5g-cell-tower.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "highland-games-caber": {
+    image_url: "/images/things/highland-games-caber.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "curling-stone": {
+    image_url: "/images/things/curling-stone.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "archery-target-face": {
+    image_url: "/images/things/archery-target-face.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fencing-epee": {
+    image_url: "/images/things/fencing-epee.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lacrosse-stick": {
+    image_url: "/images/things/lacrosse-stick.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "polo-mallet": {
+    image_url: "/images/things/polo-mallet.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "rugby-ball": {
+    image_url: "/images/things/rugby-ball.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "badminton-shuttlecock": {
+    image_url: "/images/things/badminton-shuttlecock.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "airbus-beluga-xl": {
+    image_url: "/images/things/airbus-beluga-xl.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "v-22-osprey": {
+    image_url: "/images/things/v-22-osprey.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "chinook-helicopter": {
+    image_url: "/images/things/chinook-helicopter.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "caterpillar-d11-bulldozer": {
+    image_url: "/images/things/caterpillar-d11-bulldozer.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hydraulic-excavator": {
+    image_url: "/images/things/hydraulic-excavator.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "combine-harvester": {
+    image_url: "/images/things/combine-harvester.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "snowplow-truck": {
+    image_url: "/images/things/snowplow-truck.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "zamboni-ice-resurfacer": {
+    image_url: "/images/things/zamboni-ice-resurfacer.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bayeux-tapestry": {
+    image_url: "/images/things/bayeux-tapestry.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "book-of-kells": {
+    image_url: "/images/things/book-of-kells.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "winged-victory-samothrace": {
+    image_url: "/images/things/winged-victory-samothrace.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "venus-de-milo": {
+    image_url: "/images/things/venus-de-milo.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bust-of-nefertiti": {
+    image_url: "/images/things/bust-of-nefertiti.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "benin-bronzes": {
+    image_url: "/images/things/benin-bronzes.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "elgin-marbles-metope": {
+    image_url: "/images/things/elgin-marbles-metope.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "rodins-the-kiss": {
+    image_url: "/images/things/rodins-the-kiss.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "klimts-the-kiss-painting": {
+    image_url: "/images/things/klimts-the-kiss-painting.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "van-gogh-sunflowers": {
+    image_url: "/images/things/van-gogh-sunflowers.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "monet-water-lilies-orangerie": {
+    image_url: "/images/things/monet-water-lilies-orangerie.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "apollo-11-command-module": {
+    image_url: "/images/things/apollo-11-command-module.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "war-hammer-medieval": {
+    image_url: "/images/things/war-hammer-medieval.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pide-turkish-flatbread": {
+    image_url: "/images/things/pide-turkish-flatbread.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "samosa": {
+    image_url: "/images/things/samosa.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "gyoza-dumpling": {
+    image_url: "/images/things/gyoza-dumpling.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dosa-crepe": {
+    image_url: "/images/things/dosa-crepe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "medieval-halberd": {
+    image_url: "/images/things/medieval-halberd.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hand-grenade-modern": {
+    image_url: "/images/things/hand-grenade-modern.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "degas-little-dancer": {
+    image_url: "/images/things/degas-little-dancer.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // THINGS-EXTRA-13: Small Animals, Large Animals, Deep Sea, Microscopic,
+  // Weather, Food, Plants, Extinct, Human Feats, Conceptual
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  "pufferfish": {
+    image_url: "/images/things/pufferfish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "flying-fish": {
+    image_url: "/images/things/flying-fish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "kiwi-bird": {
+    image_url: "/images/things/kiwi-bird.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "toucan": {
+    image_url: "/images/things/toucan.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "flamingo": {
+    image_url: "/images/things/flamingo.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pelican": {
+    image_url: "/images/things/pelican.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "porcupine": {
+    image_url: "/images/things/porcupine.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "armadillo": {
+    image_url: "/images/things/armadillo.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "opossum": {
+    image_url: "/images/things/opossum.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "chinchilla": {
+    image_url: "/images/things/chinchilla.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "slow-loris": {
+    image_url: "/images/things/slow-loris.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "golden-lion-tamarin": {
+    image_url: "/images/things/golden-lion-tamarin.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "saltwater-crocodile": {
+    image_url: "/images/things/saltwater-crocodile.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "yak": {
+    image_url: "/images/things/yak.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dromedary-camel": {
+    image_url: "/images/things/dromedary-camel.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "water-buffalo": {
+    image_url: "/images/things/water-buffalo.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "okapi": {
+    image_url: "/images/things/okapi.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tapir": {
+    image_url: "/images/things/tapir.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "wombat": {
+    image_url: "/images/things/wombat.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "orangutan": {
+    image_url: "/images/things/orangutan.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "gorilla": {
+    image_url: "/images/things/gorilla.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "giant-tube-worm": {
+    image_url: "/images/things/giant-tube-worm.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "viperfish": {
+    image_url: "/images/things/viperfish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fangtooth-fish": {
+    image_url: "/images/things/fangtooth-fish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "barreleye-fish": {
+    image_url: "/images/things/barreleye-fish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "yeti-crab": {
+    image_url: "/images/things/yeti-crab.jpg",
+    image_credit: "Placeholder image",
+  },
+  "gulper-eel": {
+    image_url: "/images/things/gulper-eel.jpg",
+    image_credit: "Placeholder image",
+  },
+  "sea-spider-giant": {
+    image_url: "/images/things/sea-spider-giant.jpg",
+    image_credit: "Placeholder image",
+  },
+  "ocean-sunfish": {
+    image_url: "/images/things/ocean-sunfish.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "coelacanth": {
+    image_url: "/images/things/coelacanth.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "diatom": {
+    image_url: "/images/things/diatom.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "rotifer": {
+    image_url: "/images/things/rotifer.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hydra-organism": {
+    image_url: "/images/things/hydra-organism.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "volvox-colony": {
+    image_url: "/images/things/volvox-colony.jpg",
+    image_credit: "Placeholder image",
+  },
+  "euglena": {
+    image_url: "/images/things/euglena.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "nematode": {
+    image_url: "/images/things/nematode.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "copepod": {
+    image_url: "/images/things/copepod.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "radiolarian": {
+    image_url: "/images/things/radiolarian.jpg",
+    image_credit: "Placeholder image",
+  },
+  "mammatus-clouds": {
+    image_url: "/images/things/mammatus-clouds.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lenticular-cloud": {
+    image_url: "/images/things/lenticular-cloud.jpg",
+    image_credit: "Placeholder image",
+  },
+  "rainbow-dimensions": {
+    image_url: "/images/things/rainbow-dimensions.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "frost-crystal": {
+    image_url: "/images/things/frost-crystal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "st-elmos-fire": {
+    image_url: "/images/things/st-elmos-fire.jpg",
+    image_credit: "Placeholder image",
+  },
+  "microburst": {
+    image_url: "/images/things/microburst.jpg",
+    image_credit: "Placeholder image",
+  },
+  "thundersnow": {
+    image_url: "/images/things/thundersnow.jpg",
+    image_credit: "Placeholder image",
+  },
+  "haboob-dust-storm": {
+    image_url: "/images/things/haboob-dust-storm.jpg",
+    image_credit: "Placeholder image",
+  },
+  "persimmon": {
+    image_url: "/images/things/persimmon.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pomegranate": {
+    image_url: "/images/things/pomegranate.jpg",
+    image_credit: "Placeholder image",
+  },
+  "coconut": {
+    image_url: "/images/things/coconut.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "pineapple": {
+    image_url: "/images/things/pineapple.jpg",
+    image_credit: "Placeholder image",
+  },
+  "mango": {
+    image_url: "/images/things/mango.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "durian": {
+    image_url: "/images/things/durian.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "jackfruit": {
+    image_url: "/images/things/jackfruit.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dragon-fruit": {
+    image_url: "/images/things/dragon-fruit.jpg",
+    image_credit: "Placeholder image",
+  },
+  "passion-fruit": {
+    image_url: "/images/things/passion-fruit.jpg",
+    image_credit: "Placeholder image",
+  },
+  "fig": {
+    image_url: "/images/things/fig.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "artichoke": {
+    image_url: "/images/things/artichoke.jpg",
+    image_credit: "Placeholder image",
+  },
+  "brussels-sprout": {
+    image_url: "/images/things/brussels-sprout.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "jalapeno-pepper": {
+    image_url: "/images/things/jalapeno-pepper.jpg",
+    image_credit: "Placeholder image",
+  },
+  "truffle-fungus": {
+    image_url: "/images/things/truffle-fungus.jpg",
+    image_credit: "Placeholder image",
+  },
+  "lobster": {
+    image_url: "/images/things/lobster.jpg",
+    image_credit: "Placeholder image",
+  },
+  "lotus-flower": {
+    image_url: "/images/things/lotus-flower.jpg",
+    image_credit: "Placeholder image",
+  },
+  "banyan-tree": {
+    image_url: "/images/things/banyan-tree.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "joshua-tree": {
+    image_url: "/images/things/joshua-tree.jpg",
+    image_credit: "Placeholder image",
+  },
+  "barrel-cactus": {
+    image_url: "/images/things/barrel-cactus.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "welwitschia": {
+    image_url: "/images/things/welwitschia.jpg",
+    image_credit: "Placeholder image",
+  },
+  "pitcher-plant": {
+    image_url: "/images/things/pitcher-plant.jpg",
+    image_credit: "Placeholder image",
+  },
+  "titan-arum": {
+    image_url: "/images/things/titan-arum.jpg",
+    image_credit: "Placeholder image",
+  },
+  "wisteria-vine": {
+    image_url: "/images/things/wisteria-vine.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "kapok-tree": {
+    image_url: "/images/things/kapok-tree.jpg",
+    image_credit: "Placeholder image",
+  },
+  "fastest-100m-swim": {
+    image_url: "/images/things/fastest-100m-swim.jpg",
+    image_credit: "Placeholder image",
+  },
+  "longest-free-dive": {
+    image_url: "/images/things/longest-free-dive.jpg",
+    image_credit: "Placeholder image",
+  },
+  "highest-tightrope-walk": {
+    image_url: "/images/things/highest-tightrope-walk.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "most-basketball-free-throws-consecutive": {
+    image_url: "/images/things/most-basketball-free-throws-consecutive.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fastest-marathon-on-stilts": {
+    image_url: "/images/things/fastest-marathon-on-stilts.jpg",
+    image_credit: "Placeholder image",
+  },
+  "longest-plank-hold": {
+    image_url: "/images/things/longest-plank-hold.jpg",
+    image_credit: "Placeholder image",
+  },
+  "most-dominoes-toppled": {
+    image_url: "/images/things/most-dominoes-toppled.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tallest-sandcastle": {
+    image_url: "/images/things/tallest-sandcastle.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "annual-co2-emissions": {
+    image_url: "/images/things/annual-co2-emissions.jpg",
+    image_credit: "Placeholder image",
+  },
+  "world-electricity-generation": {
+    image_url: "/images/things/world-electricity-generation.jpg",
+    image_credit: "Placeholder image",
+  },
+  "total-road-length-worldwide": {
+    image_url: "/images/things/total-road-length-worldwide.jpg",
+    image_credit: "Placeholder image",
+  },
+  "tallest-wave-ever-recorded": {
+    image_url: "/images/things/tallest-wave-ever-recorded.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "deepest-mine": {
+    image_url: "/images/things/deepest-mine.jpg",
+    image_credit: "Placeholder image",
+  },
+  "longest-cave-system": {
+    image_url: "/images/things/longest-cave-system.jpg",
+    image_credit: "Placeholder image",
+  },
+  "farthest-human-made-object": {
+    image_url: "/images/things/farthest-human-made-object.jpg",
+    image_credit: "Placeholder image",
+  },
+  "age-of-the-universe": {
+    image_url: "/images/things/age-of-the-universe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "total-world-data-storage": {
+    image_url: "/images/things/total-world-data-storage.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+
+  // ── Missing entries (no image available) ──────────────────────────────────
+
+  "pompeii-archaeological-site": {
+    image_url: "/images/things/pompeii-archaeological-site.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tutankhamun-death-mask": {
+    image_url: "/images/things/tutankhamun-death-mask.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "nazca-lines": {
+    image_url: "/images/things/nazca-lines.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lascaux-cave-paintings": {
+    image_url: "/images/things/lascaux-cave-paintings.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "antikythera-mechanism": {
+    image_url: "/images/things/antikythera-mechanism.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "troy-archaeological-site": {
+    image_url: "/images/things/troy-archaeological-site.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "gobekli-tepe": {
+    image_url: "/images/things/gobekli-tepe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "mohenjo-daro": {
+    image_url: "/images/things/mohenjo-daro.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "altamira-cave": {
+    image_url: "/images/things/altamira-cave.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dead-sea-scrolls-cave-4": {
+    image_url: "/images/things/dead-sea-scrolls-cave-4.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "terracotta-army-site": {
+    image_url: "/images/things/terracotta-army-site.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "grand-prismatic-spring": {
+    image_url: "/images/things/grand-prismatic-spring.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "cave-of-crystals-naica": {
+    image_url: "/images/things/cave-of-crystals-naica.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "salar-de-uyuni": {
+    image_url: "/images/things/salar-de-uyuni.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "paricutin-volcano": {
+    image_url: "/images/things/paricutin-volcano.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "ha-long-bay": {
+    image_url: "/images/things/ha-long-bay.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "plitvice-lakes": {
+    image_url: "/images/things/plitvice-lakes.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "cappadocia-fairy-chimneys": {
+    image_url: "/images/things/cappadocia-fairy-chimneys.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "socotra-island": {
+    image_url: "/images/things/socotra-island.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "chocolate-hills-philippines": {
+    image_url: "/images/things/chocolate-hills-philippines.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "wave-rock-australia": {
+    image_url: "/images/things/wave-rock-australia.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "door-to-hell-turkmenistan": {
+    image_url: "/images/things/door-to-hell-turkmenistan.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "perito-moreno-glacier": {
+    image_url: "/images/things/perito-moreno-glacier.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "blood-falls-antarctica": {
+    image_url: "/images/things/blood-falls-antarctica.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "great-blue-hole-belize": {
+    image_url: "/images/things/great-blue-hole-belize.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tokyo-metro-system": {
+    image_url: "/images/things/tokyo-metro-system.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "london-underground-system": {
+    image_url: "/images/things/london-underground-system.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "interstate-highway-system": {
+    image_url: "/images/things/interstate-highway-system.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "trans-siberian-railway-system": {
+    image_url: "/images/things/trans-siberian-railway-system.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "suez-canal": {
+    image_url: "/images/things/suez-canal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "transcontinental-railroad": {
+    image_url: "/images/things/transcontinental-railroad.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "german-autobahn-network": {
+    image_url: "/images/things/german-autobahn-network.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "aqueduct-of-segovia": {
+    image_url: "/images/things/aqueduct-of-segovia.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "roman-road-network": {
+    image_url: "/images/things/roman-road-network.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "silk-road-network": {
+    image_url: "/images/things/silk-road-network.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "international-date-line": {
+    image_url: "/images/things/international-date-line.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "brandenburg-gate": {
+    image_url: "/images/things/brandenburg-gate.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "arc-de-triomphe": {
+    image_url: "/images/things/arc-de-triomphe.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "temple-of-artemis": {
+    image_url: "/images/things/temple-of-artemis.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hanging-gardens-estimated": {
+    image_url: "/images/things/hanging-gardens-estimated.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "dome-of-the-rock": {
+    image_url: "/images/things/dome-of-the-rock.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "western-wall-jerusalem": {
+    image_url: "/images/things/western-wall-jerusalem.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "golden-temple-amritsar": {
+    image_url: "/images/things/golden-temple-amritsar.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "fushimi-inari-shrine-gates": {
+    image_url: "/images/things/fushimi-inari-shrine-gates.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "standard-torii-gate": {
+    image_url: "/images/things/standard-torii-gate.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "wat-arun-bangkok": {
+    image_url: "/images/things/wat-arun-bangkok.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "table-mountain": {
+    image_url: "/images/things/table-mountain.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "uluru-ayers-rock": {
+    image_url: "/images/things/uluru-ayers-rock.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "half-dome": {
+    image_url: "/images/things/half-dome.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "el-capitan": {
+    image_url: "/images/things/el-capitan.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "k2-mountain": {
+    image_url: "/images/things/k2-mountain.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "nanga-parbat": {
+    image_url: "/images/things/nanga-parbat.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lhotse": {
+    image_url: "/images/things/lhotse.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "makalu": {
+    image_url: "/images/things/makalu.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "cho-oyu": {
+    image_url: "/images/things/cho-oyu.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "congo-river": {
+    image_url: "/images/things/congo-river.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tigris-river": {
+    image_url: "/images/things/tigris-river.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "euphrates-river": {
+    image_url: "/images/things/euphrates-river.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "jordan-river": {
+    image_url: "/images/things/jordan-river.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "huang-he-yellow-river": {
+    image_url: "/images/things/huang-he-yellow-river.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "okavango-delta": {
+    image_url: "/images/things/okavango-delta.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lake-tanganyika": {
+    image_url: "/images/things/lake-tanganyika.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "lake-malawi": {
+    image_url: "/images/things/lake-malawi.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "crater-lake": {
+    image_url: "/images/things/crater-lake.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tonle-sap": {
+    image_url: "/images/things/tonle-sap.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bali-island": {
+    image_url: "/images/things/bali-island.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "santorini-island": {
+    image_url: "/images/things/santorini-island.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "zanzibar-island": {
+    image_url: "/images/things/zanzibar-island.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "maldives-total-area": {
+    image_url: "/images/things/maldives-total-area.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "svalbard-archipelago": {
+    image_url: "/images/things/svalbard-archipelago.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "faroe-islands": {
+    image_url: "/images/things/faroe-islands.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "azores-archipelago": {
+    image_url: "/images/things/azores-archipelago.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "seychelles-archipelago": {
+    image_url: "/images/things/seychelles-archipelago.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "venice-city": {
+    image_url: "/images/things/venice-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "amsterdam-city": {
+    image_url: "/images/things/amsterdam-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "marrakech-medina": {
+    image_url: "/images/things/marrakech-medina.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "kyoto-city": {
+    image_url: "/images/things/kyoto-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "cusco-city": {
+    image_url: "/images/things/cusco-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "varanasi-city": {
+    image_url: "/images/things/varanasi-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "petra-ancient-city": {
+    image_url: "/images/things/petra-ancient-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "timbuktu-city": {
+    image_url: "/images/things/timbuktu-city.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bering-sea": {
+    image_url: "/images/things/bering-sea.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "weddell-sea": {
+    image_url: "/images/things/weddell-sea.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "ross-sea": {
+    image_url: "/images/things/ross-sea.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "tasman-sea": {
+    image_url: "/images/things/tasman-sea.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "bay-of-bengal": {
+    image_url: "/images/things/bay-of-bengal.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "gulf-of-mexico": {
+    image_url: "/images/things/gulf-of-mexico.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "hudson-bay": {
+    image_url: "/images/things/hudson-bay.jpg",
+    image_credit: "Photo from Wikimedia Commons",
+  },
+  "sea-of-japan": {
+    image_url: "/images/things/sea-of-japan.jpg",
     image_credit: "Photo from Wikimedia Commons",
   },
 };
