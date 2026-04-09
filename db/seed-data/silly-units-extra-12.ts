@@ -117,8 +117,6 @@ export const sillyUnitsData: {
 
   // Craft beer cellar ~12°C = 285 K
   { name: "Beer cellar temps", name_singular: "Beer cellar temp", dimension: "temperature", si_value: 285 },
-  // Hot yoga studio ~40°C = 313 K
-  { name: "Hot yoga rooms", name_singular: "Hot yoga room", dimension: "temperature", si_value: 313 },
   // Soldering iron tip ~350°C = 623 K
   { name: "Soldering iron tips", name_singular: "Soldering iron tip", dimension: "temperature", si_value: 623 },
   // Pottery kiln ~1227°C = 1500 K

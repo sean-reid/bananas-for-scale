@@ -122,11 +122,7 @@ export const sillyUnitsData: {
   // Pizza oven ~700 K (427 C)
   { name: "Pizza ovens", name_singular: "Pizza oven", dimension: "temperature", si_value: 700 },
   // Lightning bolt ~30000 K
-  { name: "Lightning bolt channels", name_singular: "Lightning bolt channel", dimension: "temperature", si_value: 30000 },
-  // Core of the Sun ~15,700,000 K
-  { name: "Solar cores", name_singular: "Solar core", dimension: "temperature", si_value: 15700000 },
-  // Room temperature ~293 K (20 C)
-  { name: "Indoor temperatures", name_singular: "Indoor temperature", dimension: "temperature", si_value: 293 },
+  { name: "Lightning bolts", name_singular: "Lightning bolt", dimension: "temperature", si_value: 30000 },
 
   // ── Energy (J) ─── 8 units ────────────────────────────────────────────────
 

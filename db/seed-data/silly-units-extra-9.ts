@@ -220,18 +220,6 @@ export const sillyUnitsData: {
 
   // ── Temperature (7 units) ──────────────────────────────────────────────
 
-  // Liquid nitrogen ~77 K
-  { name: "Liquid nitrogen temps", name_singular: "Liquid nitrogen temp", dimension: "temperature", si_value: 77 },
-  // Candle flame ~1273 K (1000°C)
-  { name: "Candle flame temps", name_singular: "Candle flame temp", dimension: "temperature", si_value: 1273 },
-  // Human fever ~311 K (38°C / 100.4°F)
-  { name: "Human fever temps", name_singular: "Human fever temp", dimension: "temperature", si_value: 311 },
-  // Boiling water ~373 K
-  { name: "Boiling water temps", name_singular: "Boiling water temp", dimension: "temperature", si_value: 373 },
-  // Lightning bolt channel ~30000 K
-  { name: "Lightning bolt temps", name_singular: "Lightning bolt temp", dimension: "temperature", si_value: 30000 },
   // Mars surface average ~210 K (-63°C)
   { name: "Mars surface temps", name_singular: "Mars surface temp", dimension: "temperature", si_value: 210 },
-  // Volcanic lava ~1373 K (1100°C)
-  { name: "Volcanic lava temps", name_singular: "Volcanic lava temp", dimension: "temperature", si_value: 1373 },
 ];

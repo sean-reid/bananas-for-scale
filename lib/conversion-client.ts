@@ -83,7 +83,11 @@ export function pickUnits(scored: ScoredUnit[], rng: () => number): ScoredUnit[]
   if (scored.length === 0) return [];
 
   // Filter out results that are too extreme to format readably
-  const viable = scored.filter((s) => s.result > 1e-30 && s.result < 1e30);
+  // Temperature is special: it's a scale, not additive, so "0.3 campfires"
+  // doesn't make sense. Only allow results >= 1 for temperature.
+  const isTemperature = scored.length > 0 && scored[0].unit.dimension === "temperature";
+  const minResult = isTemperature ? 1 : 1e-30;
+  const viable = scored.filter((s) => s.result >= minResult && s.result < 1e30);
   if (viable.length === 0) return [];
 
   const comprehensible = viable.filter((s) => s.comprehensible);

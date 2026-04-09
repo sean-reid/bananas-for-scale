@@ -237,10 +237,8 @@ const originalSillyUnits: {
   { name: "Glacial retreat", name_singular: "Glacial retreat", dimension: "speed", si_value: 3.2e-7 },
 
   // Temperature (K)
-  { name: "Surface of the Sun", name_singular: "Surface of the Sun", dimension: "temperature", si_value: 5778 },
   { name: "Fresh pizza ovens", name_singular: "Fresh pizza oven", dimension: "temperature", si_value: 477 },
   { name: "Antarctic penguins", name_singular: "Antarctic penguin", dimension: "temperature", si_value: 253 },
-  { name: "Warm baths", name_singular: "Warm bath", dimension: "temperature", si_value: 314 },
   { name: "Hardwood floors", name_singular: "Hardwood floor", dimension: "temperature", si_value: 288 },
   { name: "Room temperatures", name_singular: "Room temperature", dimension: "temperature", si_value: 295 },
   { name: "Car dashboards in summer", name_singular: "Car dashboard in summer", dimension: "temperature", si_value: 344 },

@@ -171,10 +171,6 @@ export const sillyUnitsData: {
 
   // ── Temperature (K) ─── 15 units ─────────────────────────────────────────
 
-  // Cosmic microwave background ~2.725 K
-  { name: "Deep space backgrounds", name_singular: "Deep space background", dimension: "temperature", si_value: 2.725 },
-  // Dry ice surface ~194.65 K
-  { name: "Dry ice blocks", name_singular: "Dry ice block", dimension: "temperature", si_value: 194.65 },
   // Home freezer ~255 K (-18°C)
   { name: "Deep freezers", name_singular: "Deep freezer", dimension: "temperature", si_value: 255 },
   // Human body 310.15 K (37°C)
@@ -182,14 +178,13 @@ export const sillyUnitsData: {
   // Human fever ~311.65 K (38.5°C)
   { name: "Human fevers", name_singular: "Human fever", dimension: "temperature", si_value: 311.65 },
   // Boiling water 373.15 K
-  { name: "Boiling water pots", name_singular: "Boiling water pot", dimension: "temperature", si_value: 373.15 },
+  { name: "Boiling water", name_singular: "Boiling water", dimension: "temperature", si_value: 373.15 },
   // Bread oven ~473 K (200°C)
   { name: "Bread ovens", name_singular: "Bread oven", dimension: "temperature", si_value: 473.15 },
   // Campfire ~873 K (600°C)
   { name: "Campfires", name_singular: "Campfire", dimension: "temperature", si_value: 873 },
   // Molten steel ~1800 K
   { name: "Molten steel pours", name_singular: "Molten steel pour", dimension: "temperature", si_value: 1800 },
-  // Surface of the Sun ~5778 K
   { name: "Sun surfaces", name_singular: "Sun surface", dimension: "temperature", si_value: 5778 },
   // Sun core ~1.57e7 K
   { name: "Sun cores", name_singular: "Sun core", dimension: "temperature", si_value: 1.57e7 },

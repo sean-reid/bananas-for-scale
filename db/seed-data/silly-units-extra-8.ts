@@ -150,7 +150,7 @@ export const sillyUnitsData: {
 
   // ── Temperature (12 units) ───────────────────────────────────────────
   // Liquid nitrogen boiling point ~77 K
-  { name: "Liquid nitrogen pools", name_singular: "Liquid nitrogen pool", dimension: "temperature", si_value: 77 },
+  { name: "Liquid nitrogen", name_singular: "Liquid nitrogen", dimension: "temperature", si_value: 77 },
   // Wine cellar ~286 K (13C)
   { name: "Wine cellars", name_singular: "Wine cellar", dimension: "temperature", si_value: 286 },
   // Sauna ~358 K (85C)
@@ -159,18 +159,12 @@ export const sillyUnitsData: {
   { name: "Kiln firings", name_singular: "Kiln firing", dimension: "temperature", si_value: 1273 },
   // Welding torch (oxy-acetylene) ~3773 K (3500C)
   { name: "Welding torches", name_singular: "Welding torch", dimension: "temperature", si_value: 3773 },
-  // Surface of lava ~1473 K (1200C)
-  { name: "Lava surfaces", name_singular: "Lava surface", dimension: "temperature", si_value: 1473 },
   // Cup of hot cocoa ~333 K (60C)
   { name: "Hot cocoa cups", name_singular: "Hot cocoa cup", dimension: "temperature", si_value: 333 },
   // Arctic winter average ~243 K (-30C)
   { name: "Arctic winters", name_singular: "Arctic winter", dimension: "temperature", si_value: 243 },
   // Car engine running ~373 K (100C)
   { name: "Running car engines", name_singular: "Running car engine", dimension: "temperature", si_value: 373 },
-  // Candle flame ~1273 K (1000C) — tip of visible flame
-  { name: "Candle flame tips", name_singular: "Candle flame tip", dimension: "temperature", si_value: 1273 },
-  // Penguin habitat average ~253 K (-20C)
-  { name: "Penguin habitats", name_singular: "Penguin habitat", dimension: "temperature", si_value: 253 },
   // Fresh-baked cookie ~450 K (177C)
   { name: "Cookie ovens", name_singular: "Cookie oven", dimension: "temperature", si_value: 450 },
 

@@ -10,8 +10,6 @@ export const sillyUnitsData: {
   { name: "Live chickens", name_singular: "Live chicken", dimension: "temperature", si_value: 314.25 },
   // Average cat body temp ~38.6C = 311.75K
   { name: "Cat body temperatures", name_singular: "Cat body temperature", dimension: "temperature", si_value: 311.75 },
-  // Liquid nitrogen boiling point = 77.36K
-  { name: "Liquid nitrogen baths", name_singular: "Liquid nitrogen bath", dimension: "temperature", si_value: 77.36 },
   // Chocolate melting ~34C = 307.15K
   { name: "Chocolate melting points", name_singular: "Chocolate melting point", dimension: "temperature", si_value: 307.15 },
   // Sahara peak ~56.7C = 329.85K
@@ -30,8 +28,6 @@ export const sillyUnitsData: {
   { name: "Office thermostats", name_singular: "Office thermostat", dimension: "temperature", si_value: 292.15 },
   // Lava ~1200C = 1473.15K
   { name: "Lava flows", name_singular: "Lava flow", dimension: "temperature", si_value: 1473.15 },
-  // Brain freeze / ice cream ~-18C = 255.15K
-  { name: "Freezer temperatures", name_singular: "Freezer temperature", dimension: "temperature", si_value: 255.15 },
   // Welding arc ~3400C = 3673.15K
   { name: "Welding arcs", name_singular: "Welding arc", dimension: "temperature", si_value: 3673.15 },
   // Cosmic microwave background = 2.725K
