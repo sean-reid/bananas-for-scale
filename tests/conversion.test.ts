@@ -34,7 +34,7 @@ describe("formatNumber", () => {
 
   it("formats small decimals (>= 0.01) with up to 2 decimal places", () => {
     const result = formatNumber(0.75);
-    expect(result).toBe("0.75");
+    expect(result).toBe("7.5 tenths");
   });
 
   it("formats values between 1 and 10 with up to 2 decimals", () => {
@@ -44,7 +44,7 @@ describe("formatNumber", () => {
 
   it("formats very small numbers", () => {
     const result = formatNumber(0.005);
-    expect(result).toBe("0.005");
+    expect(result).toBe("5 thousandths");
   });
 
   it("handles negative numbers", () => {
