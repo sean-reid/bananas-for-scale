@@ -32,7 +32,7 @@ describe("formatNumber", () => {
     expect(result).toBe("12,345");
   });
 
-  it("formats small decimals (>= 0.01) with up to 2 decimal places", () => {
+  it("words values below 1 as tenths", () => {
     const result = formatNumber(0.75);
     expect(result).toBe("7.5 tenths");
   });
