@@ -48,7 +48,7 @@ export default async function ThingPage({
           subtitle={thing.subtitle}
           categoryName={thing.category?.name ?? null}
           description={thing.description}
-          imageUrl={imageData[thing.slug]?.image_url ? `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${imageData[thing.slug]!.image_url}` : null}
+          imageUrl={imageData[thing.slug]?.image_url ?? null}
           imageCredit={imageData[thing.slug]?.image_credit ?? null}
         />
 

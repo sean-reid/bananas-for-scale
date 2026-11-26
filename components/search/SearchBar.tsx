@@ -6,7 +6,6 @@ import type MiniSearch from "minisearch";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import type { SearchIndexEntry } from "@/lib/data";
-import { withBasePath } from "@/lib/base-path";
 import {
   createSearchEngine,
   search,
@@ -82,7 +81,7 @@ export function SearchBar({ compact = false }: { compact?: boolean }) {
 
   // Load search index on mount
   useEffect(() => {
-    fetch(withBasePath("/search-index.json"))
+    fetch("/search-index.json")
       .then((res) => res.json())
       .then((data: SearchIndexEntry[]) => {
         const ms = createSearchEngine(data);

@@ -3,7 +3,6 @@
 import { useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import type { SearchIndexEntry } from "@/lib/data";
-import { withBasePath } from "@/lib/base-path";
 
 const FALLBACK_SLUG = "blue-whale";
 
@@ -32,7 +31,7 @@ export function RandomButton() {
 
   // Pre-fetch the search index on mount
   useEffect(() => {
-    fetch(withBasePath("/search-index.json"))
+    fetch("/search-index.json")
       .then((res) => res.json())
       .then((data: SearchIndexEntry[]) => {
         entriesRef.current = data;

@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useCallback } from "react";
 import { SearchBar } from "@/components/search/SearchBar";
 import type { SearchIndexEntry } from "@/lib/data";
-import { withBasePath } from "@/lib/base-path";
 
 function ShuffleIcon({ className }: { className?: string }) {
   return (
@@ -34,7 +33,7 @@ export function Header() {
   const entriesRef = useRef<SearchIndexEntry[] | null>(null);
 
   useEffect(() => {
-    fetch(withBasePath("/search-index.json"))
+    fetch("/search-index.json")
       .then((res) => res.json())
       .then((data: SearchIndexEntry[]) => {
         entriesRef.current = data;

@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-
 export const metadata: Metadata = {
   title: "Bananas for Scale - The world's least useful encyclopedia",
   description:
     "Look up real-world things and get their measurements in bananas, golden retrievers, and other units nobody asked for.",
   icons: {
     icon: [
-      { url: `${basePath}/favicon.svg`, type: "image/svg+xml" },
-      { url: `${basePath}/favicon.png`, sizes: "64x64", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", sizes: "64x64", type: "image/png" },
     ],
-    apple: `${basePath}/apple-touch-icon.png`,
+    apple: "/apple-touch-icon.png",
   },
 };
 
