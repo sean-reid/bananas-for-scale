@@ -51,7 +51,7 @@ function formatCoefficient(n: number): string {
  *
  * Large:  "1.2 million", "340 billion", "2.9 trillion nonillion"
  * Normal: "29.9", "150,000", "3"
- * Small:  "33 thousandths", "710 millionths", "5 trillionths"
+ * Small:  "3.3 hundredths", "710 millionths", "5 trillionths"
  */
 export function formatNumber(n: number): string {
   if (n === 0) return "0";
